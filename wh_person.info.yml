@@ -1,0 +1,5 @@
+name: 'WH Person'
+type: module
+description: 'Install contenttype person'
+core: 8.x
+package: 'Wirth und Horn'

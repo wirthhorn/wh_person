@@ -1,0 +1,11 @@
+
+wh_person.config_form:
+  path: '/admin/config/wh_person/config'
+  defaults:
+    _form: '\Drupal\wh_person\Form\ConfigForm'
+    _title: 'Person fields configuration'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+

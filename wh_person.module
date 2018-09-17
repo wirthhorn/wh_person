@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * @file
+ * Contains wh_person.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Access\AccessResult;
+
+/**
+ * Implements hook_help().
+ */
+function wh_person_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the wh_person module.
+    case 'help.page.wh_person':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Install contenttype person') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+

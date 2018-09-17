@@ -1,0 +1,6 @@
+wh_person.config_form:
+  title: 'Person Configuration'
+  route_name: wh_person.config_form
+  description: 'Configure the person fields'
+  parent: system.admin_config_system
+  weight: 99
