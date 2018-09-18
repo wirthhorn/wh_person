@@ -4,40 +4,18 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.person.field_person_description
-    - field.field.node.person.field_person_forename
     - field.field.node.person.field_person_pseudonym
     - node.type.person
   module:
-    - text
     - user
 id: node.person.teaser
 targetEntityType: node
 bundle: person
 mode: teaser
-content:
-  field_person_description:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 2
-    settings:
-      trim_length: 600
-    third_party_settings: {  }
-    region: content
-  field_person_forename:
-    type: string
-    weight: 0
-    region: content
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-  field_person_pseudonym:
-    type: string
-    weight: 1
-    region: content
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
+content: {  }
 hidden:
+  field_person_description: true
+  field_person_pseudonym: true
+  langcode: true
   links: true
+  shariff_field: true
