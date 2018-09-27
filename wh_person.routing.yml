@@ -1,3 +1,10 @@
+wh_person.admin_config_wh:
+  path: '/admin/config/wh'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'WH Configuration'
+  requirements:
+    _permission: 'access administration pages'
 
 wh_person.config_form:
   path: '/admin/config/wh_person/config'
@@ -8,4 +15,3 @@ wh_person.config_form:
     _permission: 'access administration pages'
   options:
     _admin_route: TRUE
-

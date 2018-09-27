@@ -23,8 +23,3 @@ function wh_person_help($route_name, RouteMatchInterface $route_match) {
     default:
   }
 }
-function wh_person_uninstall(){
-  $content_type = \Drupal::entityManager()->getStorage('node_type')->load('person');
-  $content_type->delete();
-}
-

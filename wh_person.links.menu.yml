@@ -1,6 +1,12 @@
+wh_person.admin_config_wh:
+  title: 'Wirth und Horn'
+  route_name: wh_person.admin_config_wh
+  parent: system.admin_config
+  description: 'WH Configuration'
+
 wh_person.config_form:
   title: 'Person Configuration'
   route_name: wh_person.config_form
   description: 'Configure the person fields'
-  parent: system.admin_config_system
+  parent: wh_person.admin_config_wh
   weight: 99
