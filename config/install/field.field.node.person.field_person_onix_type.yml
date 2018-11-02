@@ -1,14 +1,15 @@
+uuid: e2e60cbb-57fa-44c2-81e9-e5b592458138
 langcode: de
 status: true
 dependencies:
   config:
-    - field.storage.node.field_person_forename
+    - field.storage.node.field_person_onix_type
     - node.type.person
-id: node.person.field_person_forename
-field_name: field_person_forename
+id: node.person.field_person_onix_type
+field_name: field_person_onix_type
 entity_type: node
 bundle: person
-label: Vorname
+label: 'Onix Type'
 description: ''
 required: false
 translatable: false
