@@ -1,0 +1,14 @@
+{
+    "name": "wirthhorn/wh_person",
+    "description": "Install contenttype person",
+    "type": "drupal-module",
+    "homepage": "https://www.wirth-horn.de",
+    "authors": [
+        {
+        "name": "Bettina Händel",
+        "email": "haendel@wirth-horn.de"
+        }
+    ],
+    "license": "GPL-2.0+"
+}
+  
